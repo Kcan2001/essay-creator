@@ -1,0 +1,58 @@
+.app--page-container {
+  display: flex;
+  justify-content: center;
+
+  .app--main-header {
+    font-size: 24px;
+    font-family: lato;
+    color: grey;
+  }
+
+  .app--sub-header {
+    font-size: 24px;
+    font-family: lato;
+    color: grey;
+  }
+
+  .app--form-container {
+    border: 40px solid #084aa4;
+    display: flex;
+    width: 50%;
+    height: calc(100vh - 100px);
+
+    .app--form-adjust {
+      width: 100%;
+      display: flex;
+    }
+
+    .app--inputs-container {
+      padding: 20px;
+      width: 50%;
+      background-color: #fcfcfc;
+    }
+
+    .app--essay-container {
+      padding: 20px;
+      width: 50%;
+
+      .app--essay-text {
+        margin: 0 0 80px;
+      }
+
+      .app--bold-text {
+        font-weight: 600;
+      }
+    }
+
+    .app--styled-edit {
+      background-color: #00D57E;
+      color: white;
+      padding: 12px 0px;
+      border: none;
+      border-radius: 4px;
+      min-width: 120px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}

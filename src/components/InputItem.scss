@@ -1,0 +1,22 @@
+.input-item--container {
+  .input-item--label-text {
+    font-family: lato;
+    color: grey;
+    margin: 32px 0 9px;
+  }
+
+  .input-item--bar {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    width: 90%;
+    font-family: lato;
+  }
+
+  .input-item--error-text {
+    color: red;
+    margin: 0;
+  }
+}
